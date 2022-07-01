@@ -1,6 +1,8 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@faker-js/faker': ^7.3.0
+  '@types/google.maps': ^3.49.2
   '@types/node': '*'
   axios: ^0.27.2
   parcel: ^2.6.2
@@ -8,12 +10,14 @@ specifiers:
   typescript: ^4.7.4
 
 dependencies:
+  '@types/google.maps': 3.49.2
   axios: 0.27.2
   parcel: 2.6.2
   ts-node: 10.8.1_qiyc72axg2v44xl4yovan2v55u
   typescript: 4.7.4
 
 devDependencies:
+  '@faker-js/faker': 7.3.0
   '@types/node': 18.0.0
 
 packages:
@@ -45,6 +49,11 @@ packages:
     dependencies:
       '@jridgewell/trace-mapping': 0.3.9
     dev: false
+
+  /@faker-js/faker/7.3.0:
+    resolution: {integrity: sha512-1W0PZezq2rxlAssoWemi9gFRD8IQxvf0FPL5Km3TOmGHFG7ib0TbFBJ0yC7D/1NsxunjNTK6WjUXV8ao/mKZ5w==}
+    engines: {node: '>=14.0.0', npm: '>=6.0.0'}
+    dev: true
 
   /@jridgewell/gen-mapping/0.3.2:
     resolution: {integrity: sha512-mh65xKQAzI6iBcFzwv28KVWSmCkdRBWoOh+bYQGW3+6OZvbbN3TqMGo5hqYxQniRcH9F2VZIoJCm4pa3BPDK/A==}
@@ -978,6 +987,10 @@ packages:
 
   /@tsconfig/node16/1.0.3:
     resolution: {integrity: sha512-yOlFc+7UtL/89t2ZhjPvvB/DeAr3r+Dq58IgzsFkOAvVC6NMJXmCGjbptdXdR9qsX7pKcTL+s87FtYREi2dEEQ==}
+    dev: false
+
+  /@types/google.maps/3.49.2:
+    resolution: {integrity: sha512-ZO1qWciukqED9qcUNW7OaPXWnTlT+tO3WcYkmudZyQW2BqD7TlMFRrdqSCoqfwKhERCwBA5A/YZt/g5A3BqgLQ==}
     dev: false
 
   /@types/node/18.0.0:
