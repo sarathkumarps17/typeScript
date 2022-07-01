@@ -6,5 +6,8 @@
 	},
 	"devDependencies": {
 		"@types/node": "*"
-	}
+	},
+	"scripts": {
+		"ts": "ts-node"   
+	  }
 }
