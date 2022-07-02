@@ -5,15 +5,15 @@ export default class Company{
     catchPhrace:string;
     location:{
         lat:number;
-        lon:number
+        lng:number
     };
 
     constructor(){
         this.companyName = faker.company.companyName();
         this.catchPhrace = faker.company.catchPhrase();
         this.location = {
-            lat:parseFloat(faker.address.latitude()),
-            lon:parseFloat(faker.address.longitude())           
+            lat:parseFloat(faker.address.latitude(60,-60,5)),
+            lng:parseFloat(faker.address.longitude(120,-120,10))           
         }
     }
 }
